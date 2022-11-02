@@ -1,16 +1,15 @@
-### Hi there 👋
+### Hi, I'm Seanyour !
 
-<!--
-**seanyour/seanyour** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p>
+    I am a front-end developer now, love life and code!
+</p>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Languages & Tech Stack
+<p>
+  <img src='./img/javascript.png' width='30px' title='javascript'>
+  <img src='./img/typescript.png' width='30px' title='typescript'>
+  <img src='./img/vue.png' width='30px' title='vue'>
+  <img src='./img/react.png' width='30px' title='react'>
+  <img src='./img/nodejs.png' width='30px' title='nodejs'>
+  <img src='./img/git.png' width='30px' title='git'>
+</p>
