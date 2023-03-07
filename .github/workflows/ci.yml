@@ -13,14 +13,15 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
-      - name: pnpm
-        uses: pnpm/action-setup@v2
-
       - name: node
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
-          cache: pnpm
+          node-version: 18
+
+      - name: pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
 
       - name: build
         run: pnpm build
