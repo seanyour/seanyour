@@ -4,6 +4,20 @@ export default defineConfig({
     base: '/seanyour/',
     title: 'seanyour \' docs',
     description: 'seanyour study docs',
+    head: [
+        [
+            'script',{async:'true',src: "https://www.googletagmanager.com/gtag/js?id=G-BMDZS7WZ2D"},
+
+        ],
+        [
+            'script',{},`
+            window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-BMDZS7WZ2D');
+            `
+        ]
+    ],
     outDir: '../dist',
     lastUpdated: true,
     markdown: {
