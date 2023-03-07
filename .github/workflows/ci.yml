@@ -33,4 +33,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
-          token: ${{ secrets.Example }}
+          token: ${{ secrets.SEANYOUR }}
